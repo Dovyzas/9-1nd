@@ -1,0 +1,84 @@
+body {
+    /* margin: 0 auto; */
+    background-color: green;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.article-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    margin: 15px;
+}
+
+.tekstas {
+    padding: 20px;
+}
+.article-body {
+    width: 375px;
+    height: 325px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.pirmas-blokas {
+    display: flex;
+    flex-direction: row;
+}
+
+.antras-blokas {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.antras-body {
+    width: 480px;
+}
+
+.pirmas-img {
+    width: 420px;
+    height: 345px;
+    object-fit: fill;
+}
+
+.antras-img {
+    width: 500px;
+    height: 345px;
+    object-fit: fill;
+}
+
+.semi-column {
+    display: flex;
+    flex-direction: row;
+}
+
+.trecias-blokas {
+    display: flex;
+    flex-direction: column-reverse; 
+    justify-content: flex-end;
+}
+
+.trecias-body {
+    width: 250px;
+    height: 150px;
+}
+
+.trecias-img {
+    width: 270px;
+    height: 170px;
+}
+
+.ketvirtas-body {
+    width: 250px;
+}
